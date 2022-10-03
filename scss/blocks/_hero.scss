@@ -1,0 +1,113 @@
+.wpapper-img {
+  background-image: url("../images/header-img.png");
+  background-repeat: no-repeat;
+}
+.hero-section {
+  position: relative;
+}
+.hero-wrapper {
+  width: 556px;
+}
+.hero-wrapper > h1 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 92px;
+  color: #d67e35;
+}
+.hero-wrapper > span {
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  color: #d67e35;
+}
+.hero-wrapper__spans {
+  margin-bottom: 25px;
+  margin-left: 96px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.wrapper-spans_span {
+  margin-right: 8px;
+  display: block;
+  width: 61px;
+  height: 2px;
+  background: #c4c4c4;
+}
+.wrapper-spans_span1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.wrapper-spans_span2 {
+  margin-left: 8px;
+  display: block;
+  width: 61px;
+  height: 2px;
+  background: #c4c4c4;
+}
+.hero-link {
+  margin-left: 182px;
+  padding: 14px 28px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #ff7400;
+}
+.section-bottom__list {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.bottom-list__item {
+  width: 350px;
+  height: 340px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.list-item__img {
+  margin-top: 48px;
+}
+.list-item__title {
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #2c2c2c;
+}
+.item-title__spna {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #bc9060;
+}
+.list-item__text {
+  width: 320px;
+}
+.list-item__text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #656363;
+}

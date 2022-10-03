@@ -1,0 +1,71 @@
+.site-header{
+  margin-bottom: 200px;
+}
+.header-inner {
+  padding-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-inner__list {
+  list-style: none;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner-list__item + .inner-list__item {
+  margin-left: 23px;
+}
+.inner-list__item > a {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 19px;
+  color: #ffffff;
+}
+.header-inner__span {
+  display: block;
+  height: 51px;
+  background-color: white;
+  width: 2px;
+}
+.header-inner__wrapper {
+  width: 170px;
+}
+.inner-wrapper__link {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.inner-wrapper__link::before {
+  content: url("../../images/phone.svg");
+  vertical-align: middle;
+}
+.inner-wrapper__box {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.header-inner__link {
+  padding: 15px 19px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #ff7400;
+}
